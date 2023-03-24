@@ -5,12 +5,12 @@ function Navigation() {
   return (
     <Box>
         <Flex fontWeight="bold" textColor="#495d57" flexDirection="row"  gap={40}>
-              <a href="/">Home</a>
-              <a href="/about">About</a>
-              <a href="/menu">Menu</a>
-              <a href="/reservation">Reservation</a>
-              <a href="/order">Order online</a>
-              <a href="/login">Login</a>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#reservation">Reservation</a>
+            <a href="#order">Order online</a>
+            <a href="#login">Login</a>
         </Flex>
     </Box>
   )

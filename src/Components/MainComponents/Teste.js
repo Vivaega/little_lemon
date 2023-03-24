@@ -6,7 +6,7 @@ import {FaStar, FaStarHalfAlt, FaRegStar} from 'react-icons/fa'
 
 function Teste() {
 
- const [testemonial, setTestemonial]= useState([
+ const [testimonial, setTestimonial]= useState([
   {
     id:"1",
     image:'https://bit.ly/kent-c-dodds',
@@ -74,9 +74,9 @@ function Teste() {
 
   return (
     <Box bg="#495E57"  w="100%" height="fit-content" >
-        <Heading textColor="#F4CE14" textAlign="center" paddingTop="5%" paddingBottom="4%">Testemonials</Heading>
+        <Heading textColor="#F4CE14" textAlign="center" paddingTop="5%" paddingBottom="4%">Testimonials</Heading>
         <HStack paddingBottom="5%">
-          <TesteTemplate testemonial={testemonial}/>
+          <TesteTemplate testimonial={testimonial}/>
         </HStack>
     </Box>
   )
